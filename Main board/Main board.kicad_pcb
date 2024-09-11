@@ -1,0 +1,4296 @@
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue yes)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(net 1 "Net-(F3-Pad2)")
+	(net 2 "Net-(F1-Pad2)")
+	(net 3 "Net-(F2-Pad2)")
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "01e490b9-9537-457b-a66e-35d77f734474")
+		(at 50.463 67.027)
+		(property "Reference" "SPRING14"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "68b0a20a-864d-4e02-b8f5-d28574a50e24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ee32121-2b29-449f-ac5e-4443b3a0cd13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd39f513-fcdc-4fa4-9806-abf8d2ba7a5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d895e12-cfd9-428b-a963-effa56c483fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec885484-8158-4eb1-906b-164a38220817")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/6276edb0-5de4-485c-97a6-d6224cb20720")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "41c6140f-b0f4-4c55-a041-d4aac7e51e02")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "349fc82d-ef78-4ae0-ba3b-95895d1a95c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "e815039f-9a65-41f9-bcd0-d4f2d94224e6")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "03bf3e9b-191c-4b9d-a3e1-9d2880efb32d")
+		(at 64.113 49.277)
+		(property "Reference" "SPRING33"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "27f5c920-3cc8-4fa3-a35e-fdc2e1d5e429")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a599e61-0a7c-4896-a73a-628c18e70073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea69f9d4-8a1b-45f2-8cd7-5f3d18be3543")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "845a9528-5101-41d0-87e5-4ec69cfb7b3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54a44f01-379b-4411-bda0-23c184ec0bfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/6cda1ccc-5cc2-4a14-8d66-f7b1a46359cc")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "7d101f22-ebfe-40ae-9baf-332dab69e9d6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2921f4bf-ab05-4dc3-97d0-4037bc89e454")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "5e3d30ee-1200-46a5-ab2c-382ed3ddfd1b")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "0b28229c-9dbb-43e3-ba7b-e49bcb455ce5")
+		(at 59.563 70.577)
+		(property "Reference" "SPRING31"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0901cf5c-ce58-48e5-a972-d0f4e8c09f37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4df2671-f83b-45dc-ac51-2d6a169428f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42168507-a44e-446f-ae12-15fc9a9356bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80fbc1cd-4978-4ff5-96a6-303a58c3a354")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa3cc2a5-c1ac-4609-86da-fef093112198")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/69df6ecf-53ad-47e7-9c92-39096d22e655")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0671d059-25ec-4676-93e4-8bdb8d01c8a2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "201cb0e5-77b1-4e5e-9f2a-7dded139fbd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "0f15e53e-3ad3-4081-8258-84c9fd8697a8")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "0bd7be66-dca9-45df-b8dd-782b1d1dc6cc")
+		(at 45.913 67.027)
+		(property "Reference" "SPRING6"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e4e72ec7-9b84-4fe7-b26f-decbc20d69bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b78dcad-dd2d-4a43-a83a-f66d2dd36a10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e272ad8-69e7-42d1-b3a3-1fbd7285ccff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef366f52-55be-4511-970e-1538c0f82234")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e06c3d39-38dd-4472-914a-a1da2c5bbb9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/76acea05-caaf-456a-823f-4551363894e8")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "452cbf61-0ca1-4b13-a19d-20c8177c3c6c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "88910a13-45bb-462b-903e-6d1f2b3e56d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 1 "Net-(F3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "d6ecff3a-d000-4a38-971b-1e8634c6c61c")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "0fecd8fa-d446-4f99-9285-f763bf80057c")
+		(at 59.563 67.027)
+		(property "Reference" "SPRING30"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c9942979-97cc-4c76-9bb3-f70c7d7c75b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c59f088-4e5e-4f89-a38b-c919a784ca10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "306aaef0-fa57-4047-a1ec-ba956e346253")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e27ba9e-9551-47f0-adbc-cdbcb91bd993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d940e9d-6ea8-4766-bf86-954a063d08e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/15fbe3a3-bf9c-4915-bd9b-0591f1c3b2d4")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "39984e5f-0859-4a92-af58-f994a4dd2526")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6fe39390-6b29-4225-ba42-eba03c11ce2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "457f81d8-0b7f-458f-9ebe-f8d37bee1a98")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "15d70d1a-73b4-4b95-8b9e-a9fc8ef4f8f2")
+		(at 55.013 67.027)
+		(property "Reference" "SPRING22"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "21027def-5fe6-48ab-81d9-920dc8800964")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38405777-3a0f-431e-bb2f-66ac1404b1c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1217f9d0-e691-470b-b136-d6581e8c026e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6d8392a-9316-45ac-84ef-74d063085654")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ee2d1f5-a513-42f6-8cfa-0e8eb8c28381")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ffd673b7-ed55-4141-b78e-c872c180ebf1")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "47f97e5e-49c6-40df-8b96-47ccc8ed8d7c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "96e86310-3f7b-43d5-8d95-6354ef826bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "0ea60986-2f47-485f-8a7b-23dcb611fda2")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "226657cc-cfb7-4d82-b985-bfee1adb0c71")
+		(at 55.013 74.127)
+		(property "Reference" "SPRING24"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c45c02ed-bfe8-460f-bba4-8355a66ccb4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49e8e489-4e4b-4c46-a77e-a6e6d9342383")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bae97a0-e1cb-4e5a-9b87-48b11c332066")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68799b77-1851-496f-aaee-96da45485ae3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "031ca1f3-72b0-4081-8cb6-eab00c141b7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/cfbf64a4-9428-4a59-8967-c1ca6458a09e")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f000b76f-d416-4b99-bcc8-76d3f107b5e6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3ea64bff-68c7-4e97-ad4e-f279a89daa68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "f47afcb2-f6f7-42df-9159-7759fc55216b")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "2c11a578-87cd-42f2-9f81-6e02047c2a98")
+		(at 45.913 56.377)
+		(property "Reference" "SPRING3"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e8bc87d8-2295-4dd9-a146-52cc4c400e4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b2c8bac-50f3-46d3-879a-541cd77ac1a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43f8f714-5ce4-46c2-8147-79769de7ec9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a2a8fed-0d99-413e-b371-7a22ed171104")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33109382-61a1-4475-a43c-c32797859b54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/bff0caf0-91d9-4ce1-bbd0-68f63e0e4362")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "fb617d3f-da3a-4c3f-a31d-cd9587b6de5e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "87eb1f10-347b-465b-9f91-204999866c42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 1 "Net-(F3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "08dc1d70-36e5-4d3d-8017-09210342ecb7")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "32590566-e9ed-4853-9504-6938793e2038")
+		(at 45.913 74.127)
+		(property "Reference" "SPRING8"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "115bb143-83fc-4210-8846-c92a788541eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa519c7b-5c1e-479a-96c8-3caf1fa343e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "824128dd-2794-4c2d-bfd9-b7dc24d660c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "553172cc-e637-4f85-a474-c753a580a7e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc5d9c3b-2a06-4360-960f-6379d84bf27a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/8e7a557a-6c01-4ef4-a982-5f2ec77579a5")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "fbfba264-179e-4ae8-ac25-9aa2c52a7d80")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "41725a9a-5b60-41ea-8387-f9db0cdac436")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "0aa750d1-b5e7-4f96-800e-c6a5416c7f09")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "34ed3b08-9ff1-44b9-8d73-a8dc4f351139")
+		(at 45.913 70.577)
+		(property "Reference" "SPRING7"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "39cc8fc6-f6e0-4ded-8099-17649b16feff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41699b89-5586-4839-b55e-08750c1babb9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dab353ff-df77-491f-a19d-b518361ffc3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06561493-b2c3-4ed7-9066-7abfaf810a4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eea4f028-6ce4-442a-b024-812c324f1c6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/2c175297-7e15-49fb-a98a-4a01d1913ef9")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b8f3f04f-3675-48e5-acc6-a16fca1b5303")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "93d700d4-c525-4b8b-a93b-a6ca4e0f8d2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 1 "Net-(F3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "32c7aaa6-18df-450f-8b81-69037b8a94dc")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "350b6dae-f17e-4bdf-83bf-f825cba985ba")
+		(at 64.113 52.827)
+		(property "Reference" "SPRING34"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ed686f9d-e0f1-43fb-abb9-68f661ee4fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ac2e528-30ae-4be4-8ad2-5c9204c55d13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a9d7396-804f-4f96-bde3-d784bc84981d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d918ca9-bad6-4898-8f19-2aebc1a3ed9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1390ecc-dd15-4714-a72e-b8d19c9d3af6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f5c31fbf-6baa-4ec3-a219-d76ee97ac00e")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "de53b5fb-a529-4225-85d8-c71734d35d02")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "94cadb2e-e13f-4ffc-abeb-2b1d64f6a106")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "d6f51695-a4f0-485d-bc76-27a47221fc3d")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "387c7438-e9e5-4783-9a58-c6648c0f5001")
+		(at 64.113 56.377)
+		(property "Reference" "SPRING35"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3c4e9a5f-5832-4762-98c6-7df4127fff66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63289755-04fa-4c12-b783-6eaf09ea3204")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e657816c-8054-4c08-a209-f2119e5e85f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cfdf662-fdfd-4a45-8237-e7e465f32691")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b940c077-ee9d-4d2b-83e4-26e547e99536")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/def350c2-58a8-4b3b-b1d1-25c17ff4c628")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "05a8060e-6fa2-472a-8c4e-c4319426235f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "39822315-06e5-4258-807a-e4a247e7d4d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "2ab14d6c-1424-4d8a-ade1-70009a1db489")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "42eeac04-f608-4b1d-b7a3-ee416b3532b0")
+		(at 59.563 63.477)
+		(property "Reference" "SPRING29"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "52796043-dce0-405b-b55a-553fe593b5fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cfceccd7-896d-4414-aecd-3687e155d7d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6aa6374a-535a-4f22-bb96-b6347410ebab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "135e7dcb-1a35-4ab0-ac2b-924f19805b21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e56ece7-e5d2-4660-bbda-8100c97ed52e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/291d4ba9-ce9e-444f-ab50-797816876b84")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "e1c5bc37-7c9d-4374-81d1-98b9c658f80f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c600ca6e-698a-42ec-b01b-22cc0858aec3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "c447a222-b88b-4c65-bec4-46d126527fe4")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "44bff05e-32bd-4307-9dd8-d897d416caba")
+		(at 50.463 49.277)
+		(property "Reference" "SPRING9"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "931ea36f-4f60-4cef-bc14-241c980066a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9daf54da-715d-49b5-bbc6-5f727b23ee43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94daa1d3-994e-42d6-93b3-9432c8b05c62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30ad95aa-fec7-435b-bcd9-59f6f41725ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d950bd3e-fb91-4a82-a216-cbfe60edbb74")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ce735744-32da-4b20-9c83-51968e302130")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "57d6ef33-0772-426c-986b-b7f5018d1071")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "97affee4-44c6-4fda-bde9-0011348f0a2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "83f61dff-c8fd-4b38-8e49-f83dfc2f1213")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "45fe5cbd-e17d-4eeb-b47e-fa95eeea2b1a")
+		(at 50.463 63.477)
+		(property "Reference" "SPRING13"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "db6ba65f-e458-44ea-8da1-e4bc749008f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed7e83c3-076a-49dc-961f-d82d672d7aed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e386a5a8-0a3f-4042-8c8c-8893ef1ec5c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9adff2a3-62ce-4d71-8a43-c1457c88c9d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e949445b-c594-40e9-b6a6-5381b9a2481b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/1bf8a0c6-5868-4415-97fc-a1d3de815544")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f8fc6a63-1837-4abf-a9ae-3d92c1efca3f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4e9e90a9-c4a1-47b2-9745-2de573c1f085")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "48f722da-011c-41a0-94c7-67ecc06fbca6")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "46548f2f-b83e-4b0f-a832-fbed882cf727")
+		(at 55.013 59.927)
+		(property "Reference" "SPRING20"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ecd030eb-3d0a-40d7-bfc5-490cb851e03a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e22cac7-fc77-4388-b2b3-3ded16c89dfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "571dff13-d8fb-4b48-9dd4-6105217ef37e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d47c512-6fb0-4760-abd1-d43b3721445d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1445dbf6-4e09-4117-8a79-523513050974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/d03ebbf8-90e9-4c2d-8f25-0336d82191db")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b9d8bb18-a44f-4d14-aeda-e5b63bc4e3df")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9c02aa08-14d6-4030-a6ba-82d25f9eded2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "f807d25b-848f-4589-aa5a-0803379956b4")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "46c0fb57-c7f4-433e-8733-fa8ae05f75ca")
+		(at 45.913 59.927)
+		(property "Reference" "SPRING4"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "915b55bc-5c8f-4f16-ae9e-730587c05af4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef20e556-b3bc-414e-b0a3-5c6ed0387ecc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4508a12-c5fb-4bd2-a898-4816a0645904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1858da43-5f21-4a5b-950e-793aaac44b80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a03ba06-b057-4ae7-9653-2fe4c67ce057")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/2ccf21fb-186f-43a8-b083-79474eaea280")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "317e6adf-ef59-4387-ab5f-562ad21f6879")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bd80a2b7-d014-439b-bfc1-bda44207f0c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 1 "Net-(F3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "99171f9f-b1ee-45b9-8f3d-8d7916dab792")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "5d1f09bf-7c78-4dee-bba8-9baebc2d6142")
+		(at 55.013 70.577)
+		(property "Reference" "SPRING23"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a0eb74f1-554a-4ab5-b2f8-6882dc587bfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06b8eb82-11a9-4ea2-81b8-614f5668b09c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd604437-1bc5-430b-8202-4977641d608d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c54dad7b-9ace-4153-9ed1-d90069a4b3c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "949da30d-422d-47bb-86a1-319119453e4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/cc3a46fa-b061-4263-b533-38c514ec493b")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "f59b5ee1-c4de-461a-a74d-964d9582a3f4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "adfcbdf9-0801-44d6-8e79-43a129c14c0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "43dedf49-cbd8-4033-b8dd-29ab82418a12")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "74e942e1-21b9-4f8a-9ecb-86b6ec704cd5")
+		(at 20.5 30.5)
+		(property "Reference" "SPRING1"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "123c99c8-ef34-47c7-9b6b-47eac3a89e40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27bccb11-a346-4155-b22a-77c07d808db1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8afe33eb-cbb9-4bee-a77e-93069373c14c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74590832-5663-445b-b3a8-34e8d66ae9b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f99b373-2688-4a4e-b8e2-dcd0d3c7d942")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/3f340477-2c3e-40ca-8918-b893d07130aa")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "10d03b3b-9741-4de8-b498-e045d96676c0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "85d90879-0b8a-406d-bc1d-c826ac8f1302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 1 "Net-(F3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "7bbff322-400f-4d27-ac93-f4e4ae61b144")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "76717b25-df91-442e-a155-0688b3e317f6")
+		(at 55.013 63.477)
+		(property "Reference" "SPRING21"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8947141a-67e0-4d67-a1a5-c4a8a8f454c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b75024f0-82ab-4f81-b1be-54ba4cd5418a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf9b83a8-f4ca-4e1e-b58e-afcf51ffa1f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15cc8ed4-e6c1-4a10-bcbf-121c0570ae53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "161a5a25-cfad-4b85-ba57-0c5d89d7a701")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/46cbd952-5dbb-4e51-ab79-d9b613c37106")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d518db79-94e2-4d48-bf4d-e67b5f087d7f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6590ab29-4182-45a0-b208-a4f3f8f9ab37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "b21e4fd3-bad6-4804-bf2b-8acac82e4ae7")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "84b8762f-100f-4b68-977f-c421953663c2")
+		(at 38.5 30.5)
+		(property "Reference" "SPRING2"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2632d998-84e4-40da-9e7a-8c853d0b9bfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74dac92-3647-4e19-843f-a7820839a492")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bf31fb8-6b7f-4db1-b8c1-d34f6db9d6c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb778d10-4318-42fb-a34f-967496b4607e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6508559b-b6e1-4503-be1b-4c7c5d281304")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/19083815-f31b-4197-b784-74d3de662dd9")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4035bdb9-cf36-4425-836f-4d25ec3c010c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "97278348-4447-4f05-9a70-d81f3f9f345c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 1 "Net-(F3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "fffff1ed-c5b2-4a48-9743-d978c928704a")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "857ffae0-73dc-47a7-ad8a-318391b0851d")
+		(at 59.563 74.127)
+		(property "Reference" "SPRING32"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "614a2292-b065-4225-b456-eca0dc2f4a46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afe391da-7381-4f8b-bccf-ba690708041d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e58aff10-8188-469a-8f2e-84fd71dfd5fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9db8f08b-37ff-43d3-a4b0-4a259efd8639")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5585ced2-dad5-4008-8691-d014233a98f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/83948b78-4d93-4eb0-81d4-6a1cebf278e1")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "3b3b1737-5472-46f2-a8f7-5faa7e372588")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "99c34b10-4ae6-4d20-a09b-66081aceccad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "bfcfae41-ac30-4dad-b17b-3755b9d22a5e")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "8a12d78c-70dd-4327-a842-aabce2b2f5da")
+		(at 59.563 59.927)
+		(property "Reference" "SPRING28"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5c8d218a-d920-4736-a0c5-6b6323995756")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f3a09da-a7c7-433f-b963-99d60c900cea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f39a614d-e921-4a98-a177-2a1b7a7a1bf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a1375d0-b2fc-4d08-b584-01a6f2892a2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab0c6a19-a3cf-48e8-9c55-497ab05c891c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e65fc3c9-14e6-46f5-9ac6-e330f0d0b2fc")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "d4f9e9ac-7c10-4e5b-9cf7-ad74cf1ec311")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6b1501d0-c778-4b2a-8f5f-3de019384455")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "e1d29a19-b7be-45d9-862e-dc01001da24b")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "93539331-862e-4ade-83a5-5b1cd2300711")
+		(at 59.563 49.277)
+		(property "Reference" "SPRING25"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f0f6043f-76db-4d22-9b6b-a0113239f6c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4a3f98b-9b02-446f-a6cf-33d90e61ce36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60d22356-1b64-41dc-bc80-3188230b16ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b7c274f-0363-4cc0-926a-0c5513409f43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6106b7da-f4f3-4a92-8919-3f8f349920b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/37f7a580-d930-4447-beb2-1d7bee63817a")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "4e51bf87-4ed4-4052-9c31-365ec8960595")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1f53818d-4441-4e39-bafa-200d495ffc8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "a992260a-b143-43af-a99f-549317e04552")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "9c237579-af4c-410b-999d-3a1eb022d429")
+		(at 50.463 59.927)
+		(property "Reference" "SPRING12"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cd840ec7-1d8e-4c1d-8a4d-4e8b9b1f92de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee903852-df3e-4343-8524-cb91ee6f6a11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0559b14f-6322-424e-91d3-8613545a800d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd50efcc-2ad9-4f1b-bf59-fecdebacc928")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6acf686b-ebfe-4a9e-9945-717d77bc9af1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/03542d7a-2e3a-472e-9413-89b7a1770014")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "49aae810-01e4-434c-b158-491606e9e65f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7e32135a-fe9d-46f1-a377-df0b8ffc726c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "dbe92e90-a8fd-4e76-acd5-e3f058e8a6dc")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "9ff6cce6-9305-4410-b406-69ad24212372")
+		(at 55.013 49.277)
+		(property "Reference" "SPRING17"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "73de9ad3-8a36-4938-8a87-8589a246e3e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9082ab91-d0b4-45d3-8076-14ecb209b4bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b984745-3a59-4f12-92ff-f2a128677161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0810d9ee-469f-40b4-aafe-a8d21ffb4b15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e497856-20a9-4af2-8157-00d6dade907f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/5f4acb8e-16dc-421a-8766-5a71b426b6ca")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "6e4c4a3b-7c96-444a-9c0a-f27228356d32")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b7b41a94-adb6-436a-be54-27d1c11511a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "792dc2d5-a55e-403a-9106-d56322728307")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "cc6ae99f-c603-453b-a60d-3ef547645fb8")
+		(at 55.013 52.827)
+		(property "Reference" "SPRING18"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5242b006-183f-4a4a-8ad0-981b93780e7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd3218ce-c7ea-41c5-a6d6-dcb80b5317da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "720af461-b9cd-45b8-aced-3b91b95f34ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c75a010-10c2-4bbf-99c7-6cdb763e8d80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a11ea8ed-e205-4e88-8ae1-6e9a14f60e92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/42d50664-498c-4638-80e7-435b809a3a2e")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "44aeab3e-ba45-466d-a709-30bd0bc00c1f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "be797d90-35b4-4a2e-bda9-c7bd27a1f17e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "b28f4084-b358-4c59-a98a-5a23ae8e6dcd")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "cd9b20a4-be7a-41f4-8491-2ef60dc35a89")
+		(at 50.463 52.827)
+		(property "Reference" "SPRING10"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5d5ded9b-13e0-4e92-ae65-9ef36e7d86b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caaf2cb7-efd3-4d8c-8f1f-f31b84658286")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0365f476-8830-4b51-84be-941a8111c95f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb2ceda1-9f87-478a-90cb-44aaf9291804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5950b52b-68d3-4dc8-86cb-f48a2016ae29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0eec3980-410c-4d43-b140-b3f760c805d0")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "247489af-dab5-45bd-a1b2-85ad233523dc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6faaceb1-90f9-4831-a1af-22d32709d3de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "568bb3fd-e03b-494f-aabd-fe42187076fd")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "dc5b9e7e-5909-43f2-85e4-88e68cdbb867")
+		(at 50.463 74.127)
+		(property "Reference" "SPRING16"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b8245ab2-adf5-4486-a7e1-161985534800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19190ba5-8fe0-4d45-805b-67a988126ec8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef55b78-e4bc-493a-9a99-f4a5eb0fb14a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbdd173e-e548-4fe6-b877-f560ccb39884")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33b27cda-7acf-4648-b091-975ff5c9383b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0ca94616-1904-43c9-a06b-15daaa565fe9")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "c364291b-f262-4b5a-99f1-74bd9fb24b34")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "50a07bfe-803a-4c9f-94c6-c6ff03d804a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "f6ac1c3e-0829-4442-825a-2ed46ba988ca")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "eb7d29d9-9f3f-4c4c-8852-c051c3e3b654")
+		(at 45.913 63.477)
+		(property "Reference" "SPRING5"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d0682124-6b3e-441d-8bbf-3b1d5129e154")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffb56da5-1d80-4039-a467-5a85715c4fa2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d34bc3d-9831-4983-98aa-0b0119ddb43a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12050146-bb4d-4fe7-a5ea-bc35128a9269")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd1eafd5-3625-45e5-b026-b326c090b8e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/d1afa9c5-83e3-4d7b-9f60-4c1e76e5e090")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "68408a72-cf4f-4d04-badd-6b04b72763f0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d26adb73-fda0-453e-bf5b-5ef55007c03b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 1 "Net-(F3-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "bf872ae9-7b38-4a4e-975d-457020c08c4b")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "ebdbcae1-8184-4d99-92ef-e2f292b68f2b")
+		(at 59.563 52.827)
+		(property "Reference" "SPRING26"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e436ede6-4b8b-4a86-b1f9-b699aa68152e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b80c018-49d6-409e-8bf3-8951f405207b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f69ea8d-b41e-4cf2-9a5a-d14e173c51e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6415a53f-b47a-44a2-8d63-0981c94f15f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4474162e-8e93-422f-8be7-5edda3cb36d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/edd8b29a-2214-43c5-9aae-b9dd0867042c")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0f17fb58-413f-4dac-8ec1-5a1565a8d2f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d36a348e-591d-435c-be53-6e9bf962b97f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 3 "Net-(F2-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "3be824e0-9ee5-4653-bdd1-4811d811c341")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "ec881ee8-e6b5-4704-8abf-33681165c15b")
+		(at 50.463 70.577)
+		(property "Reference" "SPRING15"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f42f2b90-4a99-4aa6-8dce-8a6f9d8eed01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b19209b0-65c0-4135-86ff-6c62a6b48df2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b36d63a-6f86-4d43-9521-0977052fdabc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bbcabc9-4f67-4ce9-874a-f0c664d7edf7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12cade6d-00ee-4b72-a0a0-84d0da41c268")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f144aa3c-5ff0-4179-acd8-9eb8a101046a")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "05e78e3b-36fb-4f5c-a422-3492c2bd6eef")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fa3d1c82-0a7d-443a-8a3c-4aa41c8db30a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "251549ce-2797-48de-9a40-b796608fef3c")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "edefe1ea-5a33-4824-8a66-1f81f85a0bf9")
+		(at 59.563 56.377)
+		(property "Reference" "SPRING27"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1bb5aecd-d4de-4c89-a800-0ca621329f11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef761ecf-86d7-44f2-8358-847b358937da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1fc259f-24de-4699-9cbe-28039f975fb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a376d105-2b89-4e17-920d-33398fd3661f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3b196db-4dbe-426d-ba5f-8d5ad5a88564")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/e8802976-312c-4828-a47a-1b25bab14116")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "20b6dfbd-622f-4e27-a610-03f42208db81")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1c764358-6883-46cd-ad49-f4b3ba8ddec7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "1d81c8fb-cbd9-4a30-a174-8a0c3408df4a")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "f911bf64-3abc-40f0-a18d-0cf287136926")
+		(at 50.463 56.377)
+		(property "Reference" "SPRING11"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fa94b842-1a46-46b7-a29d-aef0ba2a1326")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc729215-f807-40d4-99bf-575ac5be97d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df8a6112-056b-4695-bdfe-346d6395c41c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24883b84-98de-4cb7-b3d6-f4c68993b170")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae99bfd6-1310-4cea-b57a-6237542fcc33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/5adda7ed-5d3d-466b-b598-e7e4c7e8c72e")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b329a83a-4d76-4870-84f2-8180a04e4f9a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "329e886b-ccae-4ae2-9697-ab4261568e83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "2969cecb-442e-417a-aa8f-c6146c2cfdcd")
+		)
+	)
+	(footprint "spring_tab:spring_tab"
+		(layer "F.Cu")
+		(uuid "fe5ec186-cf77-48bb-9bd8-9eac4ec63b76")
+		(at 55.013 56.377)
+		(property "Reference" "SPRING19"
+			(at 0 -1.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5e981ae1-ef4f-4c32-bf01-b170fdb998e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 0 1.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ad1a2fc-11fc-43dd-b417-c9e6fd4c2eaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4ce9c70-3588-47df-9240-05d707601e9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab91ee68-760c-451c-a0e0-5e63b7717a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c9f141a-be45-4e7d-a2db-0c76fe50d1bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/efb9d0f0-9336-452e-95be-761b2554a3a0")
+		(sheetname "Root")
+		(sheetfile "Main board.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -2.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5812771a-cf36-4bf3-b890-febe6293f7c6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c45995fa-7742-4bc8-8d4c-534240f9d0d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 3 2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(net 2 "Net-(F1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(thermal_bridge_angle 45)
+			(uuid "3bf61258-0344-4265-bc70-9ebb6626ac2a")
+		)
+	)
+	(gr_circle
+		(center 92 30.5)
+		(end 100 30.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "184e58f7-8bad-4809-81d3-02314e5382b5")
+	)
+	(gr_circle
+		(center 56 30.5)
+		(end 64 30.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1b7ea7af-cf5a-41ce-891e-282324127513")
+	)
+	(gr_circle
+		(center 20 92.5)
+		(end 28 92.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "305a256e-a7b2-4d09-826b-2f036faa29da")
+	)
+	(gr_circle
+		(center 74 30.5)
+		(end 82 30.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "37b5a3e2-4d58-486e-99f0-add2b82d8e16")
+	)
+	(gr_circle
+		(center 110 30.5)
+		(end 118 30.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5578e628-aec9-48d6-9ded-d3647e12c348")
+	)
+	(gr_circle
+		(center 128 30.5)
+		(end 136 30.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5e1eeee2-3790-45c8-b69b-3cafe04e9a6f")
+	)
+	(gr_circle
+		(center 29 77)
+		(end 37 77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9f16b42d-6e6f-40df-8655-e838b1fecf24")
+	)
+	(gr_circle
+		(center 29 46)
+		(end 37 46)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a36808bd-ab09-4095-b01b-9f8b9b248822")
+	)
+	(gr_circle
+		(center 38 30.5)
+		(end 46 30.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b9f8186b-324b-4c88-8760-e438510c1de4")
+	)
+	(gr_circle
+		(center 20 61.5)
+		(end 28 61.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bb3744cc-5b3d-4bb3-837d-4c4df92fff10")
+	)
+	(gr_circle
+		(center 20 30.5)
+		(end 28 30.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d40f6b60-fd65-4d59-8d12-b7d0cc724200")
+	)
+	(gr_poly
+		(pts
+			(xy 12 12) (xy 30 12) (xy 30 22.5) (xy 138 22.5) (xy 138 100.5) (xy 12 100.5)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "10b023e4-6e73-4fc8-a968-f90c7e856d75")
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "5bd845ff-7189-4355-a926-a776b42f24f1")
+		(pts
+			(xy 12 112) (xy 138 112)
+		)
+		(height 13.999999)
+		(gr_text "126.0000 mm"
+			(at 75 124.849999 0)
+			(layer "Dwgs.User")
+			(uuid "5bd845ff-7189-4355-a926-a776b42f24f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "64b7a6f2-08d3-493e-a386-f8b69cab9691")
+		(pts
+			(xy 20.1 33) (xy 38.1 33)
+		)
+		(height -15.5)
+		(gr_text "18.0000 mm"
+			(at 29.1 16.35 0)
+			(layer "Dwgs.User")
+			(uuid "64b7a6f2-08d3-493e-a386-f8b69cab9691")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "7f9e01e3-3a2f-4f8b-b43c-0172773763eb")
+		(pts
+			(xy 20 46) (xy 29 46)
+		)
+		(height -3)
+		(gr_text "9.0000 mm"
+			(at 24.5 41.85 0)
+			(layer "Dwgs.User")
+			(uuid "7f9e01e3-3a2f-4f8b-b43c-0172773763eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "8523cea3-d923-4166-8d27-bb55e72666ee")
+		(pts
+			(xy 12 12) (xy 30 12)
+		)
+		(height -11)
+		(gr_text "18.0000 mm"
+			(at 21 -0.15 0)
+			(layer "Dwgs.User")
+			(uuid "8523cea3-d923-4166-8d27-bb55e72666ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "8b7d496a-57d8-4bb7-818d-c22c1af77215")
+		(pts
+			(xy 20 30.5) (xy 20 46)
+		)
+		(height 4.5)
+		(gr_text "15.5000 mm"
+			(at 14.35 38.25 90)
+			(layer "Dwgs.User")
+			(uuid "8b7d496a-57d8-4bb7-818d-c22c1af77215")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "cb092f38-2f59-4895-89e5-3f050c820dbb")
+		(pts
+			(xy 12 112) (xy 12 12)
+		)
+		(height -8)
+		(gr_text "100.0000 mm"
+			(at 2.85 62 90)
+			(layer "Dwgs.User")
+			(uuid "cb092f38-2f59-4895-89e5-3f050c820dbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "fb2ddbc3-6d49-4630-87b6-62cde6b028e9")
+		(pts
+			(xy 12 12) (xy 12 22.5)
+		)
+		(height 4)
+		(gr_text "10.5000 mm"
+			(at 6.85 17.25 90)
+			(layer "Dwgs.User")
+			(uuid "fb2ddbc3-6d49-4630-87b6-62cde6b028e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "8d998d8d-6736-44d9-b215-43444fd9e883")
+		(pts
+			(xy 138 112) (xy 138 12)
+		)
+		(height 17.5)
+		(gr_text "100.0000 mm"
+			(at 154.35 62 90)
+			(layer "Edge.Cuts")
+			(uuid "8d998d8d-6736-44d9-b215-43444fd9e883")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Edge.Cuts")
+		(uuid "d41732b0-985d-4859-8289-9abe93ca023b")
+		(pts
+			(xy 20 61.5) (xy 20 46)
+		)
+		(height -4.5)
+		(gr_text "15.5000 mm"
+			(at 14.35 53.75 90)
+			(layer "Edge.Cuts")
+			(uuid "d41732b0-985d-4859-8289-9abe93ca023b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+)

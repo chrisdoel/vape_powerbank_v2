@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "spring_tab")(type "KiCad")(uri "${KIPRJMOD}/spring_tab.pretty")(options "")(descr ""))
+)
