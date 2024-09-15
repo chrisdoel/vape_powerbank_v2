@@ -5,6 +5,125 @@
 	(uuid "a6814e24-567d-40dc-9833-57d446bb644d")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint_Alt"
 			(pin_numbers hide)
 			(pin_names
@@ -99,174 +218,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -442,10 +393,16 @@
 		(uuid "07fc9ba8-1bc3-4161-abfa-1c049813002d")
 	)
 	(junction
-		(at 101.6 76.2)
+		(at 57.15 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17c6704d-0894-409e-8b1d-787bd9668496")
+		(uuid "129d9993-ff42-417a-839a-bf12807c3842")
+	)
+	(junction
+		(at 114.3 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19b57538-da41-4fdb-a47e-9965af715dd6")
 	)
 	(junction
 		(at 88.9 50.8)
@@ -472,22 +429,28 @@
 		(uuid "36705b3e-ae2a-4e40-b1d4-b8240cc2a544")
 	)
 	(junction
+		(at 88.9 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e1cfe4c-68ce-4137-b6c4-fcb452b40c14")
+	)
+	(junction
+		(at 50.8 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40acfa93-6369-4ec3-b7f4-1e53ca21f43d")
+	)
+	(junction
+		(at 63.5 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42be7059-38c9-45b8-b77d-b35521103b07")
+	)
+	(junction
 		(at 63.5 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42cb0671-b4a6-4fa8-8365-cc00540dbfac")
-	)
-	(junction
-		(at 114.3 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42e922d2-ea83-44a1-924b-4922c305eb6d")
-	)
-	(junction
-		(at 76.2 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "463c6af6-0d6b-4bac-9319-5c2c31a80b08")
 	)
 	(junction
 		(at 114.3 63.5)
@@ -514,34 +477,34 @@
 		(uuid "5170901e-443a-41ac-abdc-b1a158260cdb")
 	)
 	(junction
-		(at 88.9 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5210ebd8-f056-4ca0-83d4-595a90e868f0")
-	)
-	(junction
 		(at 101.6 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5de368dc-fa12-4120-8160-8e8a231f4fe7")
 	)
 	(junction
-		(at 88.9 88.9)
+		(at 107.95 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "661c3b2e-9f70-489a-af08-139974c1865a")
-	)
-	(junction
-		(at 101.6 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "688bdfba-d9a7-4851-b16a-a30007cb253e")
+		(uuid "63305050-de62-43e9-8fce-1b606c421cf4")
 	)
 	(junction
 		(at 63.5 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b49ff11-a8af-4872-9b3e-f037bd57f041")
+	)
+	(junction
+		(at 69.85 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c1fc9a4-61f1-477f-bfbe-0c8d5fa13fd7")
+	)
+	(junction
+		(at 76.2 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df09550-68b7-419e-87e0-db42ec0cd429")
 	)
 	(junction
 		(at 88.9 101.6)
@@ -556,16 +519,40 @@
 		(uuid "73d887e8-8eff-4f0c-9587-b06c24af1a82")
 	)
 	(junction
+		(at 69.85 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77378313-e7c1-436b-ae0c-195e536bcff2")
+	)
+	(junction
 		(at 88.9 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78ade472-4e46-4f91-9800-9358f333346e")
 	)
 	(junction
-		(at 76.2 88.9)
+		(at 120.65 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93da6f43-8767-4642-9805-f9b8bb7539ca")
+		(uuid "7f12a3a0-3174-4654-a319-af0ec1a554b9")
+	)
+	(junction
+		(at 88.9 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "806669b5-f3c9-4825-bde0-ea73445a4427")
+	)
+	(junction
+		(at 50.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86cdfe72-ebad-4fae-b670-f5f9143b24fa")
+	)
+	(junction
+		(at 120.65 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "976eccda-bc38-4172-a76c-206b9c175718")
 	)
 	(junction
 		(at 82.55 76.2)
@@ -574,10 +561,22 @@
 		(uuid "9960112a-98e0-4c02-92a8-a2f4c4a5145f")
 	)
 	(junction
+		(at 114.3 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b8f3fed-44a9-4324-84ab-e0d5852d6c29")
+	)
+	(junction
 		(at 114.3 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cfdd23f-edaa-44de-b265-9e6966aa4cfe")
+	)
+	(junction
+		(at 101.6 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6e00ee-e2f5-4ffd-b7ac-c44dcd461d73")
 	)
 	(junction
 		(at 127 63.5)
@@ -586,16 +585,16 @@
 		(uuid "a5e98beb-85af-4ce6-a93e-469caf249342")
 	)
 	(junction
-		(at 63.5 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad09380a-159d-4811-9483-55cebbd80e67")
-	)
-	(junction
 		(at 95.25 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b6443656-67ca-4b80-8dfc-4c090d9deddf")
+	)
+	(junction
+		(at 63.5 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8f39d7d-05c6-4126-ae47-ed0ef67f6f51")
 	)
 	(junction
 		(at 101.6 101.6)
@@ -616,10 +615,16 @@
 		(uuid "c3bd16cb-2b79-4d4e-8d96-eb891ba0ea53")
 	)
 	(junction
-		(at 114.3 88.9)
+		(at 76.2 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d46ad8a1-e944-44e4-8d75-1ba6fad9f3b2")
+		(uuid "c9c67747-b8e1-4ff1-b078-cf544e128fd4")
+	)
+	(junction
+		(at 101.6 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb2570ec-d78f-4c7d-bf2d-5b07ebb2aa8a")
 	)
 	(junction
 		(at 76.2 50.8)
@@ -634,22 +639,28 @@
 		(uuid "df1a0a34-121a-4405-bf62-b82026336d8a")
 	)
 	(junction
+		(at 107.95 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0284376-a9f3-41c7-bdf6-4c73b836f6f8")
+	)
+	(junction
 		(at 127 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec66ac26-a86f-43bb-be53-a118ce478a44")
 	)
 	(junction
-		(at 63.5 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed72cada-3b7c-4a61-8b75-a53419156990")
-	)
-	(junction
 		(at 95.25 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee72154b-d345-4267-bedb-0baebdf1b206")
+	)
+	(junction
+		(at 57.15 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2b05ba4-3ddc-4ac3-b1cf-85c8cc9b12b5")
 	)
 	(junction
 		(at 82.55 63.5)
@@ -689,23 +700,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 88.9) (xy 88.9 88.9)
+			(xy 82.55 88.9) (xy 88.9 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "07d90c67-3bb3-4ea1-80b7-39d7b41f5b32")
-	)
-	(wire
-		(pts
-			(xy 101.6 88.9) (xy 95.25 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19372f63-ad6f-40f9-9d42-99d3c1ad8651")
 	)
 	(wire
 		(pts
@@ -719,7 +720,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 114.3 76.2)
+			(xy 127 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +740,27 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 63.5 63.5)
+			(xy 63.5 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd42e13-626c-4b87-9b8e-0f12626a4389")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 57.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289811ef-1b71-41e8-8e3b-8579fe0a0340")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 57.15 63.5)
 		)
 		(stroke
 			(width 0)
@@ -759,13 +780,33 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 95.25 76.2)
+			(xy 57.15 76.2) (xy 50.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30582d96-11f5-4354-9ed9-4c42df9286c5")
+	)
+	(wire
+		(pts
+			(xy 95.25 76.2) (xy 101.6 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32090a5a-3c59-4573-a389-8d3b5783f8b0")
+	)
+	(wire
+		(pts
+			(xy 69.85 63.5) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324dc1c9-427c-4210-a119-67e93c15a9c3")
 	)
 	(wire
 		(pts
@@ -799,6 +840,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 88.9) (xy 95.25 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d071cf8-f764-4e1c-ab97-cea02477740d")
+	)
+	(wire
+		(pts
 			(xy 101.6 101.6) (xy 95.25 101.6)
 		)
 		(stroke
@@ -816,6 +867,16 @@
 			(type default)
 		)
 		(uuid "400f6a10-0811-4496-9ebd-7b439417e2ff")
+	)
+	(wire
+		(pts
+			(xy 57.15 76.2) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4559c0af-5499-4582-8102-a18699f523fe")
 	)
 	(wire
 		(pts
@@ -899,7 +960,17 @@
 	)
 	(wire
 		(pts
-			(xy 127 88.9) (xy 114.3 88.9)
+			(xy 101.6 88.9) (xy 114.3 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aac335d-9832-441a-95c6-8b1b49543323")
+	)
+	(wire
+		(pts
+			(xy 95.25 88.9) (xy 101.6 88.9)
 		)
 		(stroke
 			(width 0)
@@ -939,23 +1010,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 76.2) (xy 101.6 76.2)
+			(xy 69.85 63.5) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6c6266e5-cb15-48de-b430-e9b0b56d2667")
-	)
-	(wire
-		(pts
-			(xy 82.55 88.9) (xy 76.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4d3a8b-bc74-4b1c-a1cb-9ab3827815f7")
+		(uuid "713e94f8-dd75-4178-9767-1b8cbbe9f11b")
 	)
 	(wire
 		(pts
@@ -969,7 +1030,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 63.5 88.9)
+			(xy 82.55 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce7c397-cb83-40c1-9ed8-def7d0a445f9")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f3de60-72d1-484e-ae0a-8b7a8c5ed273")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 63.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -989,16 +1070,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 88.9 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7f040c-c3b6-4156-a92a-aa3f6f6d3dae")
-	)
-	(wire
-		(pts
 			(xy 95.25 101.6) (xy 95.25 88.9)
 		)
 		(stroke
@@ -1009,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 127 63.5)
+			(xy 114.3 63.5) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1019,33 +1090,33 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 76.2) (xy 82.55 76.2)
+			(xy 114.3 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a29fe153-b50a-464c-9a73-81d41f8ee3ca")
+		(uuid "ad8aa847-f3e1-4395-8aa0-4769bbb2ae9d")
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 50.8 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aae908c4-d1bc-4e71-9408-0aa88502fdae")
-	)
-	(wire
-		(pts
-			(xy 76.2 63.5) (xy 63.5 63.5)
+			(xy 63.5 63.5) (xy 69.85 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ae918c54-d167-4963-a9f6-12729c801fda")
+	)
+	(wire
+		(pts
+			(xy 63.5 76.2) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0869a4e-968c-4984-be60-6830e7ad9ec1")
 	)
 	(wire
 		(pts
@@ -1059,13 +1130,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 101.6 88.9)
+			(xy 120.65 76.2) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6b4d86e-0316-46e9-bc43-91f02441cfbf")
+		(uuid "b44570a9-f3bb-4ab6-8399-31903f41ac59")
+	)
+	(wire
+		(pts
+			(xy 57.15 63.5) (xy 63.5 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5924cfd-9ae7-4535-8e70-b42ecffac53c")
 	)
 	(wire
 		(pts
@@ -1089,7 +1170,27 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 101.6 63.5)
+			(xy 107.95 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc086f2-add8-418e-84eb-81649cc100aa")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0205be-2d14-42e6-872c-6c561e95220d")
+	)
+	(wire
+		(pts
+			(xy 114.3 63.5) (xy 107.95 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 76.2) (xy 76.2 76.2)
+			(xy 69.85 76.2) (xy 76.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1139,6 +1240,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c755cd79-c28f-4349-8220-5fe8d7d72122")
+	)
+	(wire
+		(pts
 			(xy 88.9 50.8) (xy 101.6 50.8)
 		)
 		(stroke
@@ -1149,23 +1260,33 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 63.5 76.2)
+			(xy 38.1 88.9) (xy 50.8 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfae8626-c466-44ab-abaa-0806c502c973")
+		(uuid "d1235235-66ad-4d48-8c09-3ab5276ea0dc")
 	)
 	(wire
 		(pts
-			(xy 88.9 88.9) (xy 82.55 88.9)
+			(xy 107.95 63.5) (xy 107.95 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2b3376a-e57e-4d3e-9bfd-9b798b2f18ae")
+		(uuid "d601ebab-e073-4777-8d1d-0c19b375324f")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7fa71a5-c1c3-486e-8b9d-1b115de3d6fa")
 	)
 	(wire
 		(pts
@@ -1179,13 +1300,43 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 76.2) (xy 50.8 76.2)
+			(xy 76.2 76.2) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4ea73d3-30b4-4adf-9f9b-998f8742b23a")
+		(uuid "db2fbf9b-9d3e-4093-8d17-f7b4b714b0e5")
+	)
+	(wire
+		(pts
+			(xy 114.3 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8cc574a-0719-4a95-bb1b-76b617c825bf")
+	)
+	(wire
+		(pts
+			(xy 76.2 88.9) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d2de2c-eb93-4bc7-a30b-53983ad5f198")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9716d5b-9b15-432e-8dff-821cf97f049c")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
@@ -1256,16 +1407,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 50.8 88.9 0)
+		(at 88.9 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ca94616-1904-43c9-a06b-15daaa565fe9")
-		(property "Reference" "SPRING16"
-			(at 53.34 84.3279 0)
+		(uuid "0673bff1-9962-490c-b0f1-e537602354de")
+		(property "Reference" "SPRING25"
+			(at 91.44 84.3279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1425,7 @@
 			)
 		)
 		(property "Value" "spring_tab"
-			(at 53.34 86.8679 0)
+			(at 91.44 86.8679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1434,7 @@
 			)
 		)
 		(property "Footprint" "spring_tab:spring_tab"
-			(at 55.88 88.9 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1443,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 55.88 88.9 0)
+			(at 93.98 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1452,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 50.8 88.9 0)
+			(at 88.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,12 +1461,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1c36196-eceb-43e3-948b-4620ecaa7320")
+			(uuid "fb20f1fb-26ca-474d-89d8-3ee6c36d48d4")
 		)
 		(instances
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING16")
+					(reference "SPRING25")
 					(unit 1)
 				)
 			)
@@ -1416,7 +1567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 142.24 43.18 0)
 			(effects
 				(font
@@ -1729,6 +1880,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
+		(at 38.1 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a559e77-2003-4ad2-a348-99ce61fc26e0")
+		(property "Reference" "SPRING22_1"
+			(at 40.64 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 40.64 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 43.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 38.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85e23674-b55e-4b3b-9801-6bbfa05c8961")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING22_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
 		(at 127 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1889,7 +2107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 147.32 90.17 0)
 			(effects
 				(font
@@ -1927,73 +2145,6 @@
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
 					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 114.3 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37f7a580-d930-4447-beb2-1d7bee63817a")
-		(property "Reference" "SPRING25"
-			(at 116.84 71.6279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "spring_tab"
-			(at 116.84 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "spring_tab:spring_tab"
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 119.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 114.3 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80de569b-3f6d-4991-9542-21b3c94c2bac")
-		)
-		(instances
-			(project "Main board"
-				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING25")
 					(unit 1)
 				)
 			)
@@ -2067,17 +2218,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 63.5 88.9 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 143.51 22.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42d50664-498c-4638-80e7-435b809a3a2e")
-		(property "Reference" "SPRING18"
-			(at 66.04 84.3279 0)
+		(uuid "42e65bb5-f6cf-4b92-8852-270f90c68931")
+		(property "Reference" "J2"
+			(at 142.494 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,17 +2235,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "spring_tab"
-			(at 66.04 86.8679 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 135.636 19.304 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "spring_tab:spring_tab"
-			(at 68.58 88.9 0)
+		(property "Footprint" "SMD_spring_clamp_connector:SMD_spring_clamp_connector_1x1"
+			(at 143.51 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,8 +2254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 68.58 88.9 0)
+		(property "Datasheet" "~"
+			(at 143.51 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,8 +2263,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point (alternative shape)"
-			(at 63.5 88.9 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 143.51 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,12 +2273,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "14c78142-1524-4ce5-a7f1-a5f3934ca831")
+			(uuid "6043b4b2-74c0-4bbc-99c7-cbb14feb7d7e")
 		)
 		(instances
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING18")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2135,16 +2286,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 88.9 76.2 0)
+		(at 101.6 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "46cbd952-5dbb-4e51-ab79-d9b613c37106")
-		(property "Reference" "SPRING21"
-			(at 91.44 71.6279 0)
+		(uuid "45cdbfb5-44b1-4bcc-be1f-bac018930a65")
+		(property "Reference" "SPRING19"
+			(at 104.14 71.6279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2304,7 @@
 			)
 		)
 		(property "Value" "spring_tab"
-			(at 91.44 74.1679 0)
+			(at 104.14 74.1679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2162,7 +2313,7 @@
 			)
 		)
 		(property "Footprint" "spring_tab:spring_tab"
-			(at 93.98 76.2 0)
+			(at 106.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2322,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 93.98 76.2 0)
+			(at 106.68 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,7 +2331,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 88.9 76.2 0)
+			(at 101.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2340,74 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4d13fcd-e843-4ee4-bea8-8695ad83036d")
+			(uuid "f2743422-64e3-4a01-b487-89f9deb7ff8d")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 127 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58fc9bf3-7738-4099-adf5-f23aab152a02")
+		(property "Reference" "SPRING21"
+			(at 129.54 71.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 129.54 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 127 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "737d5420-421e-4a36-9897-c82053abae37")
 		)
 		(instances
 			(project "Main board"
@@ -2269,16 +2487,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 63.5 76.2 0)
+		(at 101.6 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f4acb8e-16dc-421a-8766-5a71b426b6ca")
-		(property "Reference" "SPRING17"
-			(at 66.04 71.6279 0)
+		(uuid "5d29a479-0669-42a3-854e-75ef7ab197fb")
+		(property "Reference" "SPRING26"
+			(at 104.14 84.3279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2505,7 @@
 			)
 		)
 		(property "Value" "spring_tab"
-			(at 66.04 74.1679 0)
+			(at 104.14 86.8679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2514,7 @@
 			)
 		)
 		(property "Footprint" "spring_tab:spring_tab"
-			(at 68.58 76.2 0)
+			(at 106.68 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2523,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 68.58 76.2 0)
+			(at 106.68 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2532,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 63.5 76.2 0)
+			(at 101.6 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,12 +2541,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "c54b19d6-f41e-4adb-a2d6-d70bf0f14b46")
+			(uuid "861a56f6-a9d7-4ba9-86b7-343760f7f106")
 		)
 		(instances
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING17")
+					(reference "SPRING26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 76.2 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fed9d3f-9ac0-44e0-bda8-af3cb4df032c")
+		(property "Reference" "SPRING24"
+			(at 78.74 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 78.74 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 81.28 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 76.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6b6436d-0bbe-492b-9aaa-f2da59c21144")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING24")
 					(unit 1)
 				)
 			)
@@ -2563,7 +2848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 137.16 43.18 0)
 			(effects
 				(font
@@ -2741,6 +3026,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 88.9 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87cbcbd6-2e74-422b-b648-391322e7cdbd")
+		(property "Reference" "SPRING18"
+			(at 91.44 71.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 91.44 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75f748c2-55b4-448d-bb37-c5581c00b988")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 130.81 38.1 0)
 		(unit 1)
@@ -2768,7 +3120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 132.08 43.18 0)
 			(effects
 				(font
@@ -2906,7 +3258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 144.78 64.77 0)
 			(effects
 				(font
@@ -2944,6 +3296,274 @@
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 140.97 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f11a63d-a9dd-47e1-b762-069c1720e00a")
+		(property "Reference" "J1"
+			(at 139.954 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 133.096 19.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMD_spring_clamp_connector:SMD_spring_clamp_connector_1x1"
+			(at 140.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 140.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e4f910f-ea7d-4a20-b614-376f51520673")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 146.05 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1744a5a-3b34-4628-aad0-5659c6c34519")
+		(property "Reference" "J3"
+			(at 145.034 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 138.176 19.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMD_spring_clamp_connector:SMD_spring_clamp_connector_1x1"
+			(at 146.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 146.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7295c9a2-40e2-4663-8138-6ad08139e595")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 114.3 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b171174e-800b-45eb-9b98-eb2f6cce8178")
+		(property "Reference" "SPRING27"
+			(at 116.84 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 116.84 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99112f71-2517-4583-bb2c-cccc190b8edf")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 63.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b81602-d752-4689-92fd-0977177017d3")
+		(property "Reference" "SPRING16"
+			(at 66.04 71.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 66.04 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03623ff5-24df-4404-8bb3-2d43176c6dd7")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING16")
 					(unit 1)
 				)
 			)
@@ -3011,146 +3631,6 @@
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
 					(reference "SPRING3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 143.51 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cad8e70b-ae03-4abc-9b5e-89353169c473")
-		(property "Reference" "J1"
-			(at 148.59 21.5899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 148.59 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 143.51 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db1603dc-aaf3-42e2-a1cc-2663212553ce")
-		)
-		(pin "2"
-			(uuid "bb567d59-7820-4b27-be77-5086bea254de")
-		)
-		(pin "3"
-			(uuid "500c25c4-eb48-43b0-804a-10a8c00a7b80")
-		)
-		(instances
-			(project "Main board"
-				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 101.6 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc3a46fa-b061-4263-b533-38c514ec493b")
-		(property "Reference" "SPRING23"
-			(at 104.14 71.6279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "spring_tab"
-			(at 104.14 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "spring_tab:spring_tab"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 106.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfb0b8c1-e3a0-4f50-bcc1-204ccfaaa804")
-		)
-		(instances
-			(project "Main board"
-				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING23")
 					(unit 1)
 				)
 			)
@@ -3225,140 +3705,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 101.6 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfbf64a4-9428-4a59-8967-c1ca6458a09e")
-		(property "Reference" "SPRING24"
-			(at 104.14 84.3279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "spring_tab"
-			(at 104.14 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "spring_tab:spring_tab"
-			(at 106.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 106.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 101.6 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f446635-37d1-45c1-b4d6-30d3ac6ab9d7")
-		)
-		(instances
-			(project "Main board"
-				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 76.2 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d03ebbf8-90e9-4c2d-8f25-0336d82191db")
-		(property "Reference" "SPRING20"
-			(at 78.74 84.3279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "spring_tab"
-			(at 78.74 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "spring_tab:spring_tab"
-			(at 81.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 81.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 76.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63dc72e9-c7bb-4923-8dff-f06857885c89")
-		)
-		(instances
-			(project "Main board"
-				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
 		(at 101.6 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3419,6 +3765,73 @@
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
 					(reference "SPRING5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 50.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db00db34-bdbd-4755-8a80-e54e5df6deec")
+		(property "Reference" "SPRING22"
+			(at 53.34 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 53.34 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a699d75e-ead5-4f16-9b7a-ea0e0d8148df")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING22")
 					(unit 1)
 				)
 			)
@@ -3493,6 +3906,140 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
+		(at 63.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1fbf0b8-9087-4043-ab7d-1f063b195bd2")
+		(property "Reference" "SPRING23"
+			(at 66.04 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 66.04 86.8679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74262436-bdf9-4315-b217-0ecfef97bca2")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 76.2 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e593b565-a5f1-4f94-acee-d2b15567b208")
+		(property "Reference" "SPRING17"
+			(at 78.74 71.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "spring_tab"
+			(at 78.74 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "spring_tab:spring_tab"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
+			(at 81.28 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79df7806-a3a3-4010-ba56-c9e5cb55fb8d")
+		)
+		(instances
+			(project "Main board"
+				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
+					(reference "SPRING17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
 		(at 127 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3560,16 +4107,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 127 76.2 0)
+		(at 38.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8802976-312c-4828-a47a-1b25bab14116")
-		(property "Reference" "SPRING27"
-			(at 129.54 71.6279 0)
+		(uuid "f0ea9185-9a2b-481d-8195-47ddfdb5943c")
+		(property "Reference" "SPRING8_1"
+			(at 40.64 58.9279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +4125,7 @@
 			)
 		)
 		(property "Value" "spring_tab"
-			(at 129.54 74.1679 0)
+			(at 40.64 61.4679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +4134,7 @@
 			)
 		)
 		(property "Footprint" "spring_tab:spring_tab"
-			(at 132.08 76.2 0)
+			(at 43.18 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +4143,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 132.08 76.2 0)
+			(at 43.18 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3605,7 +4152,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 127 76.2 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,146 +4161,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "93a7c2bb-486c-4894-84d8-f2ee3596a37c")
+			(uuid "1c4a1393-f5b5-49db-b815-0bd414f4c5be")
 		)
 		(instances
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 114.3 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edd8b29a-2214-43c5-9aae-b9dd0867042c")
-		(property "Reference" "SPRING26"
-			(at 116.84 84.3279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "spring_tab"
-			(at 116.84 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "spring_tab:spring_tab"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 119.38 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 114.3 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "94d12cfb-a3e8-4050-99e3-5432cb120940")
-		)
-		(instances
-			(project "Main board"
-				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Alt")
-		(at 76.2 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efb9d0f0-9336-452e-95be-761b2554a3a0")
-		(property "Reference" "SPRING19"
-			(at 78.74 71.6279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "spring_tab"
-			(at 78.74 74.1679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "spring_tab:spring_tab"
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 81.28 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point (alternative shape)"
-			(at 76.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2359c267-12f8-4434-b97a-c1b05f481509")
-		)
-		(instances
-			(project "Main board"
-				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING19")
+					(reference "SPRING8_1")
 					(unit 1)
 				)
 			)
@@ -3895,16 +4308,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Alt")
-		(at 88.9 88.9 0)
+		(at 114.3 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ffd673b7-ed55-4141-b78e-c872c180ebf1")
-		(property "Reference" "SPRING22"
-			(at 91.44 84.3279 0)
+		(uuid "fb17e8c1-3fe4-4559-a1cb-75e8c577c23f")
+		(property "Reference" "SPRING20"
+			(at 116.84 71.6279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,7 +4326,7 @@
 			)
 		)
 		(property "Value" "spring_tab"
-			(at 91.44 86.8679 0)
+			(at 116.84 74.1679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,7 +4335,7 @@
 			)
 		)
 		(property "Footprint" "spring_tab:spring_tab"
-			(at 93.98 88.9 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,7 +4344,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081532_Shenzhen-Kinghelm-Elec-KH-322035-TP_C2837578.pdf"
-			(at 93.98 88.9 0)
+			(at 119.38 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +4353,7 @@
 			)
 		)
 		(property "Description" "test point (alternative shape)"
-			(at 88.9 88.9 0)
+			(at 114.3 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,12 +4362,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "75cb4c32-f70e-4fb7-9d58-0f76614e64dd")
+			(uuid "a3ae2343-a00c-409c-8d8d-739010cad1c0")
 		)
 		(instances
 			(project "Main board"
 				(path "/a6814e24-567d-40dc-9833-57d446bb644d"
-					(reference "SPRING22")
+					(reference "SPRING20")
 					(unit 1)
 				)
 			)
